@@ -1,7 +1,7 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './pages/home/Home'
-import About from './pages/About/About'
-import Contact from './pages/contact/Contact'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
-  )
+  );
 }
 
-export default App
+export default App;
